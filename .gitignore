@@ -8,8 +8,11 @@
 
 # production
 /build
+package.json
+package-lock.json
 
 # misc
+.gitignore
 .DS_Store
 .env
 npm-debug.log*

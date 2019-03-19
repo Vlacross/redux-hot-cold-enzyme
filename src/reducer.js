@@ -51,6 +51,7 @@ export default (state = initialState, action) => {
     }
 
     if (action.type === GENERATE_AURAL_UPDATE) {
+
         const {guesses, feedback} = state;
 
         // If there's not exactly 1 guess, we want to
